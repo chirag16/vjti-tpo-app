@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Student Application Status Viewer</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h1>Student Application Status Viewer</h1>
+		<form method = "GET">
+			<input id = "name" 		type = "text" name = "name" 		placeholder = "Enter Student Name"><br/>
+			<input id = "company"	type = "text" name = "company"	placeholder = "Enter Company Name"></br />
+			<input type = "submit" onclick = "var theUrl = 'http://127.0.0.1:8000/student-application-status/' + document.getElementById('name').value + '/' + document.getElementById('company').value; this.form.action = theUrl;">
+		</form>
+		<script type="text/javascript">
+		// 	function redirect() {
+		// 		alert('Hello')
+		// 		var theUrl = "http://127.0.0.1:8000/student-application-status/" + document.getElementById("name").value + "/" + document.getElementById("company").value
+		// 		theUrl = "www.google.com"
+		// 		this.form.action = theUrl
+		// 	}
+		</script>
+	</body>
+</html>

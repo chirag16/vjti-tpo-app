@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	Result of insertion: {{ msg }}
+	<br />
+	<a href = "studentApplies1.html"> Back </a>
+</body>
+
+</html>

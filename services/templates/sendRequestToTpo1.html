@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<form action = "{{ url_for('insert') }}" method = "POST">
+		Company Name: <input = "text" name = "company_name" required><br/>
+		Preferred Branch: <input = "text" name = "preferred_branch" required><br/>
+		Salary: <input = "number" name = "salary"><br/>
+		<input type = "submit" value = "Submit" name = "submit" /><br />
+		
+	</form>
+</body>
+</html>
